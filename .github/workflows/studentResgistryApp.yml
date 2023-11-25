@@ -21,6 +21,6 @@ jobs:
     - name: Build the app
       run: npm install
     - name: Create bin
-      run: create bin
+      run: npm i -g mocha
     - name: Run integration tests
       run: npm test
