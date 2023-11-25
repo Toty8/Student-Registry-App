@@ -9,6 +9,7 @@
     "pug": "^2.0.4"
   },
   "scripts": {
+    "create bin": "npm i -g mocha",
     "test": "mocha tests/*.js",
     "start": "node index.js"
   }
