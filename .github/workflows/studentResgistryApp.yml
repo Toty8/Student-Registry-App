@@ -20,5 +20,7 @@ jobs:
         cache: 'npm'
     - name: Build the app
       run: npm install
+    - name: Start app
+      run: npm i -g mocha
     - name: Run integration tests
       run: npm test
